@@ -1,0 +1,4 @@
+[0mGET /test.html [33m404 [0m245.141 ms - 1225[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.326 ms - -[0m
+[0mGET / [36m304 [0m19.187 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.049 ms - -[0m

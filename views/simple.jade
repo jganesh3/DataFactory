@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        script(src='/scripts/monaco-editor/min/vs/loader.js')
+    body
+        h2 Template Editor
+        #container(style='height:600px;border:1px solid grey')
+        script.
+            require.config({ paths: { 'vs': '/scripts/monaco-editor/min/vs' }});
+            require(['vs/editor/editor.main'], function() {
+                var editor = monaco.editor.create(document.getElementById('container'), {
+                    value: [
+                    ].join('\\n'),
+                    language: 'xml'
+                });
+            });
