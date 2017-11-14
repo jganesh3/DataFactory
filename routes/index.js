@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 router.get('/simple',function (req,res,next) {
   res.render('simple');
 
-})
+});
 
 
 router.get('/list',function (req,res,next) {
@@ -19,11 +19,15 @@ router.get('/list',function (req,res,next) {
    //console.log(files);
     //res.send(JSON.stringify(files));
     res.render('list')
+});
 
 
 
-
+router.post('/save',function (req,res,next) {
+    
 })
+
+
 
 
 module.exports = router;
